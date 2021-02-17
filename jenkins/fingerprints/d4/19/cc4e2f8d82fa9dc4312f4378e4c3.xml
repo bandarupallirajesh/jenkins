@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-02-10 06:35:26.960 UTC</timestamp>
+  <md5sum>d419cc4e2f8d82fa9dc4312f4378e4c3</md5sum>
+  <fileName>Credential id=09a5dc58-c890-438b-90c5-8aef580a6ac9 name=bandarupallirajesh/******</fileName>
+  <usages>
+    <entry>
+      <string>git_clone_sample</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

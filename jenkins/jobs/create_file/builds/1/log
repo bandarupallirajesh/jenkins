@@ -1,0 +1,8 @@
+Started by user [8mha:////4EJZwDWrID25Cb079ElLTbJzMVqOKUtVU+3F7f6PeLxNAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osSs1OIMANnk+Z7BAAAA[0mRajesh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/create_file
+[create_file] $ /bin/sh -xe /tmp/jenkins2162089432041607745.sh
++ mkdir /tmp/test
++ touch /tmp/test/sample.txt
++ echo 'sample text created by jenkins'
+Finished: SUCCESS

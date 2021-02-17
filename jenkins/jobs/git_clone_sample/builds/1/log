@@ -1,0 +1,23 @@
+Started by user [8mha:////4EJZwDWrID25Cb079ElLTbJzMVqOKUtVU+3F7f6PeLxNAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osSs1OIMANnk+Z7BAAAA[0mRajesh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/git_clone_sample
+The recommended git tool is: NONE
+using credential 09a5dc58-c890-438b-90c5-8aef580a6ac9
+Cloning the remote Git repository
+Cloning repository https://github.com/bandarupallirajesh/hellogitworld.git
+ > git init /var/lib/jenkins/workspace/git_clone_sample # timeout=10
+Fetching upstream changes from https://github.com/bandarupallirajesh/hellogitworld.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/bandarupallirajesh/hellogitworld.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/bandarupallirajesh/hellogitworld.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ef7bebf8bdb1919d947afe46ab4b2fb4278039b3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ef7bebf8bdb1919d947afe46ab4b2fb4278039b3 # timeout=10
+Commit message: "Fix groupId after package refactor"
+First time build. Skipping changelog.
+Finished: SUCCESS

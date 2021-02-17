@@ -1,0 +1,12 @@
+Started on Feb 17, 2021 5:34:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 81c3167cb0b41c3debda84bf4f83efa3cb7987ea (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git ls-remote -h https://github.com/bandarupallirajesh/java.git # timeout=10
+Found 3 remote heads on https://github.com/bandarupallirajesh/java.git
+[poll] Latest remote head revision on refs/heads/master is: 81c3167cb0b41c3debda84bf4f83efa3cb7987ea - already built by 6
+Done. Took 0.4 sec
+No changes

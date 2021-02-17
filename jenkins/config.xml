@@ -1,0 +1,118 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.263.3</version>
+  <installStateName>RUNNING</installStateName>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:aduser</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:rajesh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:aduser</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:rajesh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:aduser</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:rajesh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:aduser</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:rajesh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:aduser</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:rajesh</permission>
+    <permission>hudson.model.Computer.Build:aduser</permission>
+    <permission>hudson.model.Computer.Build:rajesh</permission>
+    <permission>hudson.model.Computer.Configure:aduser</permission>
+    <permission>hudson.model.Computer.Configure:rajesh</permission>
+    <permission>hudson.model.Computer.Connect:aduser</permission>
+    <permission>hudson.model.Computer.Connect:rajesh</permission>
+    <permission>hudson.model.Computer.Create:aduser</permission>
+    <permission>hudson.model.Computer.Create:rajesh</permission>
+    <permission>hudson.model.Computer.Delete:aduser</permission>
+    <permission>hudson.model.Computer.Delete:rajesh</permission>
+    <permission>hudson.model.Computer.Disconnect:aduser</permission>
+    <permission>hudson.model.Computer.Disconnect:rajesh</permission>
+    <permission>hudson.model.Hudson.Administer:aduser</permission>
+    <permission>hudson.model.Hudson.Administer:rajesh</permission>
+    <permission>hudson.model.Hudson.Read:aduser</permission>
+    <permission>hudson.model.Hudson.Read:rajesh</permission>
+    <permission>hudson.model.Item.Build:aduser</permission>
+    <permission>hudson.model.Item.Build:rajesh</permission>
+    <permission>hudson.model.Item.Cancel:aduser</permission>
+    <permission>hudson.model.Item.Cancel:rajesh</permission>
+    <permission>hudson.model.Item.Configure:aduser</permission>
+    <permission>hudson.model.Item.Configure:rajesh</permission>
+    <permission>hudson.model.Item.Create:aduser</permission>
+    <permission>hudson.model.Item.Create:rajesh</permission>
+    <permission>hudson.model.Item.Delete:aduser</permission>
+    <permission>hudson.model.Item.Delete:rajesh</permission>
+    <permission>hudson.model.Item.Discover:aduser</permission>
+    <permission>hudson.model.Item.Discover:rajesh</permission>
+    <permission>hudson.model.Item.Move:aduser</permission>
+    <permission>hudson.model.Item.Move:rajesh</permission>
+    <permission>hudson.model.Item.Read:aduser</permission>
+    <permission>hudson.model.Item.Read:rajesh</permission>
+    <permission>hudson.model.Item.Workspace:aduser</permission>
+    <permission>hudson.model.Item.Workspace:rajesh</permission>
+    <permission>hudson.model.Run.Delete:aduser</permission>
+    <permission>hudson.model.Run.Delete:rajesh</permission>
+    <permission>hudson.model.Run.Replay:aduser</permission>
+    <permission>hudson.model.Run.Replay:rajesh</permission>
+    <permission>hudson.model.Run.Update:aduser</permission>
+    <permission>hudson.model.Run.Update:rajesh</permission>
+    <permission>hudson.model.View.Configure:aduser</permission>
+    <permission>hudson.model.View.Configure:rajesh</permission>
+    <permission>hudson.model.View.Create:aduser</permission>
+    <permission>hudson.model.View.Create:rajesh</permission>
+    <permission>hudson.model.View.Delete:aduser</permission>
+    <permission>hudson.model.View.Delete:rajesh</permission>
+    <permission>hudson.model.View.Read:aduser</permission>
+    <permission>hudson.model.View.Read:rajesh</permission>
+    <permission>hudson.scm.SCM.Tag:aduser</permission>
+    <permission>hudson.scm.SCM.Tag:rajesh</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:aduser</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:rajesh</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:aduser</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:rajesh</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.View:aduser</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.View:rajesh</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.plugins.active_directory.ActiveDirectorySecurityRealm" plugin="active-directory@2.23">
+    <domains>
+      <hudson.plugins.active__directory.ActiveDirectoryDomain>
+        <name>bandarupalli.com</name>
+        <servers>10.128.0.26:3268</servers>
+        <bindName>gcpravikiran</bindName>
+        <bindPassword>{AQAAABAAAAAQSMgGsN9d36ov/sEPFX0/6hNgHdllRGOV4nro+/c3z1M=}</bindPassword>
+        <tlsConfiguration>TRUST_ALL_CERTIFICATES</tlsConfiguration>
+      </hudson.plugins.active__directory.ActiveDirectoryDomain>
+    </domains>
+    <startTls>true</startTls>
+    <groupLookupStrategy>AUTO</groupLookupStrategy>
+    <removeIrrelevantGroups>false</removeIrrelevantGroups>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>
